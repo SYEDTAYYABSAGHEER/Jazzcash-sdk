@@ -5,8 +5,8 @@ require_relative "lib/jazz_cash/version"
 Gem::Specification.new do |spec|
   spec.name = "jazz_cash"
   spec.version = JazzCash::VERSION
-  spec.authors = ["TODO: Write your name"]
-  spec.email = ["TODO: Write your email address"]
+  spec.authors = ["Syed Tayyab Sagheer"]
+  spec.email = ["syedtayyabsagheer@gmail.com"]
 
   spec.summary = "TODO: Write a short summary, because RubyGems requires one."
   spec.description = "TODO: Write a longer description or delete this line."
@@ -35,6 +35,8 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency 'rest-client', '~> 2.1'
+
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
